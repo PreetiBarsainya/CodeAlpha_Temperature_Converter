@@ -9,4 +9,4 @@ cel.oninput = () => {
 fah.oninput = () => {
     let output = (parseFloat(fah.value) - 32) * 5/9;
     cel.value = parseFloat(output.toFixed(2));
-  };
+};
